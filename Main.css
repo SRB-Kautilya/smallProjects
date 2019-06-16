@@ -3,7 +3,7 @@ body {
     display:flex;
     justify-content:center;
     align-items: center;
-    background:#ffd0a8;
+    background:#88d5e9;
     color:#333;
     font-family:'calibri','sans-serif';
     font-weight:400;
@@ -13,7 +13,7 @@ body {
 .container {
     text-align:center;
     padding:2rem;
-    border-radius:5px;
+    border-radius:7px;
     background-color:#fff; 
     flex:0,0,80%;
     
@@ -28,29 +28,38 @@ body {
   font-size:3rem;   
 }
 */
-#quotesBtn{
-    padding:0.25rem,0.5rem;
-    border: none;
-    border-radius:7px;
+button{
+    display:block;
+   font-size:2rem;
+    border-radius: 7px;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
     color:#fff;
-    background:#d89156;
-    font-size:0.85rem;
-    text-transform:captalize;
-    cursor:pointer;
-    outline:none;
-    text-transform: capitalize;
+    background: #6cc3d8;
+    border-radius:8px;
+    border:none;
+    
+    
 }
-.quotesBtn:hover{
-    background: rgb(0,0,0)
+button:hover{
+    opacity: 0.8;
+    cursor:pointer
 }
 
-blockquote{
-    background:#f9f9f9;
-    border-left: 10px solid #fcdbbf;
-    margin:1.5rem;
+input[type=text]{
     padding: 0.5rem;
+    margin:1rem;
+    border-radius:5px;
+    font-size:1.5rem;
+    border:3px solid #88d5e9;
+    outline:none;
 }
 
-#quoteAuther{
-    color:#ffd000
+input[type=text]:focus{
+    box-shadow:0 0 10px #88d5e9;
+}
+
+#messageOut{
+    margin:0.5rem 0;
+    color:#88d5e9;
 }

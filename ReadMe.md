@@ -1,1 +1,1 @@
-This Message Project is when you type message and press send it will show the last message we send & if you didnt send anything it will show an alert
+This Message Project is when you type message and press send. It will show the last message we send & if you didn't send anything it will show an alert Message
