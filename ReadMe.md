@@ -1,1 +1,1 @@
-This code will generate quotes quote & author name automatically when you press button.
+This Message Project is when you type message and press send it will show the last message we send & if you didnt send anything it will show an alert
